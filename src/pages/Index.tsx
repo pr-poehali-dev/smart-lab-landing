@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import HowItWorks from '@/components/HowItWorks';
 import TrustSection from '@/components/TrustSection';
+import FounderSection from '@/components/FounderSection';
 import ReportExample from '@/components/ReportExample';
 import Testimonials from '@/components/Testimonials';
 import Pricing from '@/components/Pricing';
@@ -37,6 +38,7 @@ const Index = () => {
       <HeroSection onTelegramClick={handleTelegramClick} eyeOffset={eyeOffset} />
       <HowItWorks />
       <TrustSection />
+      <FounderSection />
       <ReportExample />
       <Testimonials />
       <Pricing onTelegramClick={handleTelegramClick} />

@@ -18,16 +18,10 @@ const TrustSection = () => {
           </Card>
 
           <Card className="p-8 text-center bg-white">
-            <div className="mb-4 flex justify-center">
-              <img 
-                src="https://cdn.poehali.dev/files/f8fba307-c032-4e0c-8d39-f4bf75e7f932.jpg" 
-                alt="Основатель" 
-                className="w-20 h-20 rounded-full object-cover border-4 border-violet-200"
-              />
-            </div>
-            <h3 className="text-xl font-bold mb-3">Основатель — врач</h3>
+            <div className="text-5xl mb-4">🔒</div>
+            <h3 className="text-xl font-bold mb-3">Безопасность данных</h3>
             <p className="text-gray-600">
-              Системный подход к диагностике с медицинским образованием
+              Все данные передаются по защищённому каналу и не передаются третьим лицам
             </p>
           </Card>
 

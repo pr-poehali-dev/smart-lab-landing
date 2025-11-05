@@ -28,7 +28,7 @@ const Index = () => {
   };
 
   const handleTelegramClick = () => {
-    window.open('https://t.me/smartlab_bot', '_blank');
+    window.open('https://t.me/SmartLab_AiBot?start=link_EF2qyCuUNV', '_blank');
   };
 
   return (
@@ -36,8 +36,12 @@ const Index = () => {
       {/* Fixed Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="text-2xl">🧪</div>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/eee3f108-2c14-45ab-9a23-0123f5373c87.png" 
+              alt="Смарт Лаб" 
+              className="h-10 w-auto"
+            />
             <span className="text-xl font-bold bg-gradient-to-r from-violet-600 to-blue-500 bg-clip-text text-transparent">
               Смарт Лаб
             </span>
@@ -190,10 +194,16 @@ const Index = () => {
             </Card>
 
             <Card className="p-8 text-center bg-white">
-              <div className="text-5xl mb-4">🔬</div>
-              <h3 className="text-xl font-bold mb-3">Медицинская надёжность</h3>
+              <div className="mb-4 flex justify-center">
+                <img 
+                  src="https://cdn.poehali.dev/files/f8fba307-c032-4e0c-8d39-f4bf75e7f932.jpg" 
+                  alt="Основатель" 
+                  className="w-20 h-20 rounded-full object-cover border-4 border-violet-200"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-3">Основатель — врач</h3>
               <p className="text-gray-600">
-                Основатель — врач. Системный подход к диагностике
+                Системный подход к диагностике с медицинским образованием
               </p>
             </Card>
 
@@ -525,8 +535,12 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="text-2xl">🧪</div>
+              <div className="flex items-center gap-3 mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/eee3f108-2c14-45ab-9a23-0123f5373c87.png" 
+                  alt="Смарт Лаб" 
+                  className="h-8 w-auto"
+                />
                 <span className="text-xl font-bold text-white">Смарт Лаб</span>
               </div>
               <p className="text-sm">
